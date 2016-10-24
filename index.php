@@ -63,5 +63,38 @@ $myNameLngth = strlen($nameLength);
 
  // array working with array_search
  $myArray = array('firstitem' =>"Bread" , 'seconditem' =>"butter");
+ //accessing  array in php_ini_loaded_file
+ echo "<br>";
+ echo $myArray['seconditem'];
+ //another way of declaring array in php_ini_loaded_file
+ $myNewArray = array("David","Anelka","Kemi");
+  echo "<br>";
+ echo $myNewArray[1];
+ //array in php can also be accessed using the curly braces {}
+
+ echo $myNewArray{1};
+ echo "<br>";
+ echo $myNewArray[0].' '.$myNewArray{2}.' '.$myArray['seconditem'];
+ echo "<br>";
+
+ // changing array position using assignment i.e by assigning a new value
+
+ $myNewArray{2} = "Oluwanifemi";
+ echo "<br>";
+
+ echo var_dump($myNewArray);
+  echo "<br>";
+
+ // using foreach loop in php to loop through 
+
+ foreach ($myNewArray as $name=> $person) {
+     # code...
+     echo $person ."<br>";
+ }
+
+ /// using unset to delete an array
+
+ unset($myNewArray[1]);
+ echo var_dump($myNewArray);
 
 ?>
