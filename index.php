@@ -104,6 +104,15 @@ for ($i=0; $i <100 ; $i = $i+4) {
     echo $i ."<br>";
 } 
 
+// making foreach loop all my own to greatness
+
+$menus = array("Home","About","Services","Gallery","Contact Us",);
+
+foreach ($menus as $menu) {
+    # code...
+    echo "<li><a href=>".$menu."<a/><li/>";
+}
+
 
 
 ?>
