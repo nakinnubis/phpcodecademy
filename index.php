@@ -60,7 +60,7 @@ $myNameLngth = strlen($nameLength);
          echo "Good bye nothing more to try";
          break;
  }
- 
+
  // array working with array_search
  $myArray = array('firstitem' =>"Bread" , 'seconditem' =>"butter");
 
