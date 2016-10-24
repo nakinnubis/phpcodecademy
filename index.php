@@ -96,5 +96,14 @@ $myNameLngth = strlen($nameLength);
 
  unset($myNewArray[1]);
  echo var_dump($myNewArray);
+// for loops here we come.....
+// using for loop to print a number by 4 increament something similar to leap year 
+
+for ($i=0; $i <100 ; $i = $i+4) { 
+    # code...
+    echo $i ."<br>";
+} 
+
+
 
 ?>
